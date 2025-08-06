@@ -10,7 +10,11 @@ const pool = new Pool({
   user: 'todo_user',
   host: 'localhost',
   database: 'todo_app',
+<<<<<<< HEAD
   password: 'secure123',  
+=======
+  password: 'secure123',  // 🔁 Replace with your password
+>>>>>>> f87d1361556a48789499b0d8d7ad4de2c860a516
   port: 5432,
 });
 

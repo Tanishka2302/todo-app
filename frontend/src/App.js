@@ -95,7 +95,11 @@ function App() {
               {tasks.map((task) =>
                 task.id ? (
                   <li key={task.id}>
+<<<<<<< HEAD
                     <span>{task.task}</span>{/*rendering */}
+=======
+                    <span>{task.text}</span>
+>>>>>>> f87d1361556a48789499b0d8d7ad4de2c860a516
                     <button className="delete-btn" onClick={() => deleteTask(task.id)}>
                       Delete
                     </button>

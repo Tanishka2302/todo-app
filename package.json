@@ -1,12 +1,6 @@
 {
   "name": "todo-app",
-<<<<<<< HEAD
-  "homepage": "https://Tanishka2302.github.io/todo-app",
-
-=======
->>>>>>> f87d1361556a48789499b0d8d7ad4de2c860a516
   "version": "0.1.0",
-  "proxy": "http://localhost:3001",
   "private": true,
   "description": "",
   "main": "index.js",
@@ -14,17 +8,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-<<<<<<< HEAD
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-=======
     "eject": "react-scripts eject"
->>>>>>> f87d1361556a48789499b0d8d7ad4de2c860a516
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "commonjs",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.6.4",
@@ -52,11 +41,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-<<<<<<< HEAD
-  },
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
-=======
->>>>>>> f87d1361556a48789499b0d8d7ad4de2c860a516
   }
 }
